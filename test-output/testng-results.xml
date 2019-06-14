@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8609" started-at="2019-06-14T09:14:46Z" finished-at="2019-06-14T09:14:55Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8609" started-at="2019-06-14T09:14:46Z" finished-at="2019-06-14T09:14:55Z">
+      <class name="www.chinnamma.com.MoEngage.HeatIndex">
+        <test-method status="PASS" signature="getClimateDetailsOfTheCities()[pri:0, instance:www.chinnamma.com.MoEngage.HeatIndex@1e88b3c]" name="getClimateDetailsOfTheCities" duration-ms="5551" started-at="2019-06-14T09:14:46Z" finished-at="2019-06-14T09:14:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getClimateDetailsOfTheCities -->
+      </class> <!-- www.chinnamma.com.MoEngage.HeatIndex -->
+      <class name="www.chinnamma.com.MoEngage.Climatedetails">
+        <test-method status="PASS" signature="getDelhiClimateDetails()[pri:0, instance:www.chinnamma.com.MoEngage.Climatedetails@3bfdc050]" name="getDelhiClimateDetails" duration-ms="1365" started-at="2019-06-14T09:14:53Z" finished-at="2019-06-14T09:14:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDelhiClimateDetails -->
+        <test-method status="PASS" signature="getClimateDetailsOfTheCity()[pri:0, instance:www.chinnamma.com.MoEngage.Climatedetails@3bfdc050]" name="getClimateDetailsOfTheCity" duration-ms="883" started-at="2019-06-14T09:14:54Z" depends-on-methods="www.chinnamma.com.MoEngage.Climatedetails.getDelhiClimateDetails" finished-at="2019-06-14T09:14:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getClimateDetailsOfTheCity -->
+      </class> <!-- www.chinnamma.com.MoEngage.Climatedetails -->
+      <class name="www.chinnamma.com.MoEngage.BengluruTest">
+        <test-method status="PASS" signature="getTemperatureDetails()[pri:0, instance:www.chinnamma.com.MoEngage.BengluruTest@42d80b78]" name="getTemperatureDetails" duration-ms="772" started-at="2019-06-14T09:14:52Z" finished-at="2019-06-14T09:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTemperatureDetails -->
+      </class> <!-- www.chinnamma.com.MoEngage.BengluruTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
